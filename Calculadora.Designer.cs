@@ -99,6 +99,7 @@
             btnSubtrair.TabIndex = 6;
             btnSubtrair.Text = "Subtrair";
             btnSubtrair.UseVisualStyleBackColor = true;
+            btnSubtrair.Click += btnSubtrair_Click;
             // 
             // btnDividir
             // 
@@ -108,6 +109,7 @@
             btnDividir.TabIndex = 7;
             btnDividir.Text = "Dividir";
             btnDividir.UseVisualStyleBackColor = true;
+            btnDividir.Click += btnDividir_Click;
             // 
             // btnMultiplicar
             // 
@@ -117,6 +119,7 @@
             btnMultiplicar.TabIndex = 8;
             btnMultiplicar.Text = "Multiplicar";
             btnMultiplicar.UseVisualStyleBackColor = true;
+            btnMultiplicar.Click += btnMultiplicar_Click;
             // 
             // Calculadora
             // 
